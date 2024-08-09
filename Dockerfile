@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose the port your app runs on
-EXPOSE 10000
+EXPOSE 3000
 
 # Set environment variable to specify the port
 # ENV PORT 10000
