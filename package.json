@@ -11,8 +11,8 @@
     "prop-types": "15.7.2"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
+    "start": "react-scripts start --port 10000",
+    "build": "react-scripts build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
   },
