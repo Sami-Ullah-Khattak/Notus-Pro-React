@@ -4,4 +4,4 @@ services:
     build: 
       context: .  # Use the current directory as the build context
     ports:
-      - "10000:6000"  # Map port 10000 on the host to port 10000 in the container
+      - "10000:3000"  # Map port 10000 on the host to port 10000 in the container
