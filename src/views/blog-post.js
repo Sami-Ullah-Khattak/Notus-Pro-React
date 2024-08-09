@@ -16,6 +16,7 @@ const BlogPost = (props) => {
       <Helmet>
         <title>BlogPost - Notus Pro</title>
         <meta property="og:title" content="BlogPost - Notus Pro" />
+        <meta property="og:description" content="Test Theme" />
       </Helmet>
       <div className="blog-post-hero">
         <div className="blog-post-fixed-header">

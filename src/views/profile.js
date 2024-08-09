@@ -15,6 +15,7 @@ const Profile = (props) => {
       <Helmet>
         <title>Profile - Notus Pro</title>
         <meta property="og:title" content="Profile - Notus Pro" />
+        <meta property="og:description" content="Test Theme" />
       </Helmet>
       <div className="profile-image">
         <Header></Header>

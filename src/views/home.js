@@ -17,6 +17,7 @@ const Home = (props) => {
       <Helmet>
         <title>Notus Pro</title>
         <meta property="og:title" content="Notus Pro" />
+        <meta property="og:description" content="Test Theme" />
       </Helmet>
       <div className="home-hero">
         <div className="home-bg"></div>
