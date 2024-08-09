@@ -1,7 +1,7 @@
 version: '3'
 services:
-  app:  # Changed service name to 'app' to reflect a generic application
+  app:
     build: 
       context: .  # Use the current directory as the build context
     ports:
-      - "10000:6000"
+      - "10000:6000"  # Map port 10000 on the host to port 10000 in the container
