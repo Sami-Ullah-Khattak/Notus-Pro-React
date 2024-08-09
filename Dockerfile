@@ -14,7 +14,10 @@ RUN npm install
 COPY . .
 
 # Expose the port your app runs on
-EXPOSE 6000
+EXPOSE 10000
+
+# Set environment variable to specify the port
+# ENV PORT 10000
 
 # Start the application
-CMD ["npm", "start", "--", "--port", "10000"]
+CMD ["npm", "start"]
